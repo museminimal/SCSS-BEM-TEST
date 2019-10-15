@@ -1,0 +1,21 @@
+.portfolio {
+  padding: 110px 0;
+  background: #f3f3f3;
+}
+
+.portfolio__nav {
+  max-width: 300px;
+  margin: 90px auto;
+}
+
+.portfolio__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  flex-basis: 45%;
+  margin-bottom: 15px;
+}
