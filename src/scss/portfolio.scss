@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 110px 0;
+  padding: 110px 0 65px;
   background: #f3f3f3;
 }
 
@@ -13,9 +13,10 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 65px;
 }
 
 .photo-card {
-  flex-basis: 45%;
+  flex-basis: 50%;
   margin-bottom: 15px;
 }

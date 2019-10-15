@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
 }
 
-//TITLES////////////////////////////////////////////////////////
+//TITLES-common-styles////////////////////////////////////////////////////////
 
 .title {
   font-family: 'Lato-Regular';
@@ -42,7 +42,7 @@ body {
   font-weight: 900;
 }
 
-//BUTTONS////////////////////////////////////////////////////////
+//BUTTONS-common-styles////////////////////////////////////////////////////////
 
 .button-wrap {
   max-width: 220px;
@@ -62,7 +62,6 @@ body {
 }
 
 .read-more {
-  border: 1px solid #ffffff;
   cursor: pointer;
   padding: 11px 54px;
   background: none;
@@ -75,18 +74,59 @@ body {
   transition: ease .25s;
 }
 
-.read-more:hover {
+.read-more_btn_white:hover {
   background: #fff;
   color: #464646;
 }
 
 .read-more_btn_white {
   color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .read-more_btn_black {
   color: #000000;
+  border: 1px solid #000000;
 }
+
+.read-more_btn_black:hover {
+  background: #3c3c3c;
+  color: #fff;
+}
+
+//NAVIGATION-common-styles////////////////////////////////////////////////////////
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu__item {
+  display: block;
+}
+
+.nav-menu__link {
+  text-decoration: none;
+}
+
+.nav-menu__link_dark {
+  color: #3c3c3c;
+}
+
+.nav-menu__link_big {
+  text-transform: uppercase;
+  font-family: "Lato - Bold";
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-menu__link_big:hover {
+  color: #ada074;
+  text-decoration: none;
+}
+
+//TEXT-common-styles////////////////////////////////////////////////////////
 
 .text {
   color: #868585;

@@ -44,34 +44,5 @@
   margin: 0 auto;
 }
 
-.nav-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-menu__item {
-  display: block;
-}
-
-.nav-menu__link {
-  text-decoration: none;
-}
-
-.nav-menu__link_dark {
-  color: #3c3c3c;
-}
-
-.nav-menu__link_big {
-  text-transform: uppercase;
-  font-family: "Lato - Bold";
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.nav-menu__link_big:hover {
-  color: #ada074;
-  text-decoration: none;
-}
 
 
