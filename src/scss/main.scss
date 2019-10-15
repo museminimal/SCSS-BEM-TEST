@@ -1,0 +1,75 @@
+@import "fonts.scss";
+@import "reset.scss";
+@import "header.scss";
+
+body {
+  font-family: sans-serif;
+}
+
+//TITLES////////////////////////////////////////////////////////
+
+.title {
+  font-family: 'Lato-Regular';
+  letter-spacing: 5.43px;
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title_color_white {
+  color: #ffffff;
+}
+
+.title_color_black {
+  color: #000000;
+}
+
+.title_weight_xl {
+  font-weight: 900;
+}
+
+//BUTTONS////////////////////////////////////////////////////////
+
+.button-wrap {
+  max-width: 220px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.button-wrap::after {
+  content: '';
+  display: block;
+  width: 17px;
+  height: 10px;
+  background: url("../assets/img/arrow-down.png") no-repeat center / contain;
+  position: absolute;
+  top: 150px;
+  left: 98px;
+}
+
+.read-more {
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  padding: 11px 54px;
+  background: none;
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.67px;
+  margin: 0 auto;
+  transition: ease .25s;
+}
+
+.read-more:hover {
+  background: #fff;
+  color: #464646;
+}
+
+.read-more_btn_white {
+  color: #ffffff;
+}
+
+.read-more_btn_black {
+  color: #000000;
+}
