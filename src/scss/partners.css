@@ -1,0 +1,21 @@
+.partners__banner {
+  background: url("../assets/img/partners-banner.png") no-repeat center/cover;
+  padding: 100px 0; }
+  .partners__banner .partners__title {
+    color: #ffffff;
+    font-family: 'Lato-Light';
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin-bottom: 95px; }
+  .partners__banner .partners__logo-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    padding-left: 90px; }
+    .partners__banner .partners__logo-wrap .partners__logo {
+      flex-basis: 25%; }
+
+/*# sourceMappingURL=partners.css.map */

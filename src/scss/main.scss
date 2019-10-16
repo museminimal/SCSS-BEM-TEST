@@ -3,6 +3,9 @@
 @import "header.scss";
 @import "about.scss";
 @import "portfolio.scss";
+@import "partners.scss";
+@import "contacts.scss";
+@import "footer.scss";
 
 body {
   font-family: sans-serif;
@@ -47,10 +50,13 @@ body {
 .button-wrap {
   max-width: 220px;
   margin: 0 auto;
+}
+
+.button-wrap_after {
   position: relative;
 }
 
-.button-wrap::after {
+.button-wrap_after::after {
   content: '';
   display: block;
   width: 17px;
@@ -72,6 +78,7 @@ body {
   letter-spacing: 0.67px;
   margin: 0 auto;
   transition: ease .25s;
+  border: none;
 }
 
 .read-more_btn_white:hover {
@@ -95,6 +102,10 @@ body {
 }
 
 //NAVIGATION-common-styles////////////////////////////////////////////////////////
+.nav {
+  max-width: 450px;
+  margin: 0 auto;
+}
 
 .nav-menu {
   display: flex;
@@ -103,7 +114,7 @@ body {
 }
 
 .nav-menu__item {
-  display: block;
+
 }
 
 .nav-menu__link {
@@ -114,6 +125,10 @@ body {
   color: #3c3c3c;
 }
 
+.nav-menu__link_light {
+  color: #a4a4a4;
+}
+
 .nav-menu__link_big {
   text-transform: uppercase;
   font-family: "Lato - Bold";
@@ -121,10 +136,19 @@ body {
   font-weight: 700;
 }
 
-.nav-menu__link_big:hover {
+.nav-menu__link_sm {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-menu__link_big:hover,
+.nav-menu__link_sm:hover
+{
   color: #ada074;
   text-decoration: none;
 }
+
 
 //TEXT-common-styles////////////////////////////////////////////////////////
 
@@ -136,4 +160,15 @@ body {
   line-height: 25.89px;
   text-align: center;
   max-width: 690px;
+}
+
+.text_left {
+  text-align: left;
+}
+
+//PHOTO-common-styles////////////////////////////////////////////////////////
+
+.photo-card {
+  flex-basis: 50%;
+  margin-bottom: 15px;
 }

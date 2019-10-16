@@ -1,0 +1,59 @@
+.contacts {
+  padding: 155px 0 100px; }
+  .contacts .contacts__wrap {
+    display: flex;
+    padding: 150px 0 0;
+    flex-wrap: wrap; }
+    .contacts .contacts__wrap .contacts__form {
+      flex-basis: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .contacts .contacts__wrap .contacts__form .contacts__input {
+        border: none;
+        outline: none;
+        background: #f8f7f7; }
+        .contacts .contacts__wrap .contacts__form .contacts__input .contacts_border_btm, .contacts .contacts__wrap .contacts__form .contacts__input .contacts_border_btm::-webkit-input-placeholder {
+          padding-bottom: 10px;
+          border-bottom: 1px solid #000000; }
+      .contacts .contacts__wrap .contacts__form .contacts__textarea {
+        flex-basis: 100%;
+        margin-left: 41px;
+        margin-top: 60px; }
+        .contacts .contacts__wrap .contacts__form .contacts__textarea .contacts__message {
+          margin-top: 50px;
+          border: none;
+          outline: none;
+          resize: none;
+          text-align: left;
+          background: #f8f7f7; }
+    .contacts .contacts__wrap .contacts__info {
+      flex-basis: 40%;
+      margin-left: 100px;
+      font-size: 16px;
+      font-family: 'Lato-Light'; }
+      .contacts .contacts__wrap .contacts__info .contacts__text_bold {
+        font-family: 'Lato-Regular';
+        font-weight: 700;
+        margin-top: 35px; }
+      .contacts .contacts__wrap .contacts__info .contacts__e-mail_m {
+        margin-top: 10px; }
+    .contacts .contacts__wrap .contacts__button {
+      flex-basis: 15%;
+      margin: 100px auto 0; }
+
+.fa-facebook-f, .fa-instagram {
+  font-size: 25px;
+  color: #000;
+  display: inline-block;
+  margin-left: 15px; }
+
+.contacts__input::-webkit-input-placeholder,
+.contacts__message::-webkit-input-placeholder {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Lato-Regular'; }
+
+/*# sourceMappingURL=contacts.css.map */
