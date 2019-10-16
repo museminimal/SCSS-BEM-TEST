@@ -17,18 +17,12 @@
         border: none;
         outline: none;
         background: #f8f7f7;
-
-        .contacts_border_btm, .contacts_border_btm::-webkit-input-placeholder {
-          padding-bottom: 10px;
-          border-bottom: 1px solid #000000;
-        }
-
       }
 
       .contacts__textarea {
         flex-basis: 100%;
-        margin-left: 41px;
-        margin-top: 60px;
+        margin-left: 52px;
+        margin-top: 45px;
 
         .contacts__message {
           margin-top: 50px;
@@ -53,6 +47,7 @@
         font-family: 'Lato-Regular';
         font-weight: 700;
         margin-top: 35px;
+        color: #000000;
       }
 
       .contacts__e-mail_m {
@@ -67,6 +62,11 @@
     }
 
   }
+}
+
+.contacts_border_btm, .contacts_border_btm::-webkit-input-placeholder {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
 }
 
 .fa-facebook-f, .fa-instagram {

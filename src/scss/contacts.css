@@ -14,13 +14,10 @@
         border: none;
         outline: none;
         background: #f8f7f7; }
-        .contacts .contacts__wrap .contacts__form .contacts__input .contacts_border_btm, .contacts .contacts__wrap .contacts__form .contacts__input .contacts_border_btm::-webkit-input-placeholder {
-          padding-bottom: 10px;
-          border-bottom: 1px solid #000000; }
       .contacts .contacts__wrap .contacts__form .contacts__textarea {
         flex-basis: 100%;
-        margin-left: 41px;
-        margin-top: 60px; }
+        margin-left: 52px;
+        margin-top: 45px; }
         .contacts .contacts__wrap .contacts__form .contacts__textarea .contacts__message {
           margin-top: 50px;
           border: none;
@@ -36,12 +33,17 @@
       .contacts .contacts__wrap .contacts__info .contacts__text_bold {
         font-family: 'Lato-Regular';
         font-weight: 700;
-        margin-top: 35px; }
+        margin-top: 35px;
+        color: #000000; }
       .contacts .contacts__wrap .contacts__info .contacts__e-mail_m {
         margin-top: 10px; }
     .contacts .contacts__wrap .contacts__button {
       flex-basis: 15%;
       margin: 100px auto 0; }
+
+.contacts_border_btm, .contacts_border_btm::-webkit-input-placeholder {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000; }
 
 .fa-facebook-f, .fa-instagram {
   font-size: 25px;
